@@ -115,7 +115,7 @@ if($auth){
   $permissionerr=false;
   $spannung=substr(exec("vcgencmd measure_volts core"),5);
   if( (strpos($spannung,"failed")!==false) || (strlen($spannung)<2) ){
-    $spannung=$spannung."<div class='alert alert-danger' role='alert'>Reading of core voltage failed. Please run<br><kbd>sudo usermod -aG video www-data</kbd><br>in a terminal to solve this problem.&nbsp;<a href='https://github.com/femto-code/Raspberry-Pi-Dashboard#core-voltage-or-other-hardware-info-output-is-not-shown-optional' target='blank'><i class='bi bi-question-circle'></i>&nbsp;Help</a></div>";
+    $spannung=$spannung."<div class='alert alert-danger' role='alert'>Reading of core voltage failed. Please run<br><kbd>sudo usermod -aG video www-data</kbd><br>in a terminal to solve this problem.&nbsp;<a href='https://github.com/AShuuu-Technoid/Pi-Dashboard#core-voltage-or-other-hardware-info-output-is-not-shown-optional' target='blank'><i class='bi bi-question-circle'></i>&nbsp;Help</a></div>";
     $permissionerr=true;
   }
 }
@@ -279,7 +279,7 @@ if($auth){
         <div class="card-header">Model</div>
         <div class="card-body">
           <samp><?php echo exec("cat /sys/firmware/devicetree/base/model");?></samp>
-          <?php $ot=shell_exec("vcgencmd version");if($permissionerr){echo "<div class='alert alert-danger' role='alert'>Execution of system command failed. Please run<br><kbd>sudo usermod -aG video www-data</kbd><br>in a terminal to solve this problem.&nbsp;<a href='https://github.com/femto-code/Raspberry-Pi-Dashboard#core-voltage-or-other-hardware-info-output-is-not-shown-optional' target='blank'><i class='bi bi-question-circle'></i>&nbsp;Help</a></div>";}else{echo '<samp>'.$ot.'</samp>';}?>
+          <?php $ot=shell_exec("vcgencmd version");if($permissionerr){echo "<div class='alert alert-danger' role='alert'>Execution of system command failed. Please run<br><kbd>sudo usermod -aG video www-data</kbd><br>in a terminal to solve this problem.&nbsp;<a href='https://github.com/AShuuu-Technoid/Pi-Dashboard#core-voltage-or-other-hardware-info-output-is-not-shown-optional' target='blank'><i class='bi bi-question-circle'></i>&nbsp;Help</a></div>";}else{echo '<samp>'.$ot.'</samp>';}?>
           <p class="card-text"><small class="text-muted">Updated <span><?php echo date("H:i:s");?> (at page load)</span></small></p>
         </div>
       </div>
@@ -509,7 +509,7 @@ if($auth){
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
               <div class="card-body">
               <h3><font class='text-success'>&#10003;</font> Version 1.1.0</h3>
-              <ul><li>live page title with hostname + status of monitored RPi</li><li>new project logo and improved readme.md design (thanks @Roo7K1d)</li><li><a href='https://github.com/femto-code/Rasberry-Pi-Dashboard/releases'>Stay updated here</a></li><li><i><a href="CHANGELOG.md">All changes</a></i></li></ul>
+              <ul><li>live page title with hostname + status of monitored RPi</li><li>new project logo and improved readme.md design (thanks @Roo7K1d)</li><li><a href='https://github.com/AShuuu-Technoid/Pi-Dashboard/releases'>Stay updated here</a></li><li><i><a href="CHANGELOG.md">All changes</a></i></li></ul>
               <small>most important changes since RPi Dashboard v1.0.1 (Sep 2021)</small>
               </div>
             </div>
@@ -574,10 +574,10 @@ if($auth){
 <!-- Footer -->
 <footer style="line-height: 40px; background-color: #f5f5f5; margin-top: 10px;">
   <div class="container text-center">
-    RPi Dashboard v1.1.0 <font class="text-muted">(Oct 2021)</font> <span id="dot">&middot;</span> <font id="notf" class="text-success">See the <a href="https://github.com/femto-code/Rasberry-Pi-Dashboard/releases">Github releases</a> for updates!</font><br />
+    RPi Dashboard v1.1.0 <font class="text-muted">(Oct 2021)</font> <span id="dot">&middot;</span> <font id="notf" class="text-success">See the <a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/releases">Github releases</a> for updates!</font><br />
     <button class="btn btn-secondary mb-2" onclick="$('#exampleModal').modal('show');"><i class="bi bi-gear"></i>&nbsp;Options</button>
     <hr style="margin-top: 0; margin-bottom: 0;">
-    femto-code&nbsp;<a href="https://github.com/femto-code"><i class="bi bi-github"></i></a> &middot; <font class="text-muted">2018 - 2021</font>
+    AShuuu-Technoid&nbsp;<a href="https://github.com/AShuuu-Technoid"><i class="bi bi-github"></i></a> &middot; <font class="text-muted">2018 - 2021</font>
   </div>
 </footer>
 <!-- End Footer -->

@@ -3,35 +3,34 @@
 <p align="center"><sub>Written in plain HTML5, CSS3, JavaScript and PHP (backend). <b>No extra software required!</b></sub></p>
 <br>
 <div align="center">
-  <a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/stargazers"><img src="https://img.shields.io/github/stars/femto-code/Raspberry-Pi-Dashboard?color=yellow" alt="Stars Badge"/></a>
-<a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/network/members"><img src="https://img.shields.io/github/forks/femto-code/Raspberry-Pi-Dashboard?color=orange" alt="Forks Badge"/></a>
-<a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/pulls"><img src="https://img.shields.io/github/issues-pr/femto-code/Raspberry-Pi-Dashboard" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/issues"><img src="https://img.shields.io/github/issues/femto-code/Raspberry-Pi-Dashboard" alt="Issues Badge"/></a>
-<a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/femto-code/Raspberry-Pi-Dashboard?color=2b9348"></a>
-<a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/blob/master/LICENSE"><img src="https://img.shields.io/github/license/femto-code/Raspberry-Pi-Dashboard?color=2b9348" alt="License Badge"/></a>
+  <a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/network/members"><img src="https://img.shields.io/github/forks/AShuuu-Technoid/Pi-Dashboard?color=yellow" alt="Forks Badge"/></a>
+<a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/pulls"><img src="https://img.shields.io/github/issues-pr/AShuuu-Technoid/Pi-Dashboard" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/issues"><img src="https://img.shields.io/github/issues/AShuuu-Technoid/Pi-Dashboard" alt="Issues Badge"/></a>
+<a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/AShuuu-Technoid/Pi-Dashboard?color=2b9348"></a>
+<a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/blob/master/LICENSE"><img src="https://img.shields.io/github/license/AShuuu-Technoid/Pi-Dashboard?color=2b9348" alt="License Badge"/></a>
 <br>
-<a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/"><img src="https://img.shields.io/github/repo-size/femto-code/Raspberry-Pi-Dashboard?color=important" alt="License Badge"/></a>
-<a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/"><img src="https://img.shields.io/tokei/lines/github/femto-code/Raspberry-Pi-Dashboard?color=yellowgreen" alt="License Badge"/></a>
-<a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/releases"><img src="https://img.shields.io/github/v/release/femto-code/Raspberry-Pi-Dashboard?color=success" alt="License Badge"/></a>
-<a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/commits"><img src="https://img.shields.io/github/last-commit/femto-code/Raspberry-Pi-Dashboard" alt="License Badge"/></a>
+<a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/"><img src="https://img.shields.io/github/repo-size/AShuuu-Technoid/Pi-Dashboard?color=important" alt="License Badge"/></a>
+<a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/"><img src="https://img.shields.io/tokei/lines/github/AShuuu-Technoid/Pi-Dashboard?color=yellowgreen" alt="License Badge"/></a>
+<a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/releases"><img src="https://img.shields.io/github/v/release/AShuuu-Technoid/Pi-Dashboard?color=success" alt="License Badge"/></a>
+<a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/commits"><img src="https://img.shields.io/github/last-commit/AShuuu-Technoid/Pi-Dashboard" alt="License Badge"/></a>
 </div>
 <br>
-<p align="center"><a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/issues">Report a Bug</a> | <a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/issues">Request a New Feature</a> | <a href="https://github.com/femto-code/Raspberry-Pi-Dashboard/pulls">Help Develop This Project</a></p>
+<p align="center"><a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/issues">Report a Bug</a> | <a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/issues">Request a New Feature</a> | <a href="https://github.com/AShuuu-Technoid/Pi-Dashboard/pulls">Help Develop This Project</a></p>
 <p align="center"><i>Loved the project? Please consider giving a star</i> :)</p>
 
 ## Features
 
 - Live surveillance of RPi hardware (CPU Temperature, frequency, loads etc.) with customizable warning thresholds
 - Detailed software/hardware information (web server, PHP, storage / partition workload, core voltage, plugged USB devices, kernel version, model specifications, OS, CPU, network config)
-- Protected access with password login (default: root) ([configure password](https://github.com/femto-code/Raspberry-Pi-Dashboard#configure-password-manually))
-- Power (shutdown/reboot) Raspberry Pi with schedule options ([setup instructions](https://github.com/femto-code/Raspberry-Pi-Dashboard#enable-shutdown--reboot-optional))
+- Protected access with password login (default: root) ([configure password](https://github.com/AShuuu-Technoid/Pi-Dashboard#configure-password-manually))
+- Power (shutdown/reboot) Raspberry Pi with schedule options ([setup instructions](https://github.com/AShuuu-Technoid/Pi-Dashboard#enable-shutdown--reboot-optional))
 - Mobile WebApp integration
 - Responsive design layout allows usage on all screen sizes
 - Dark Theme (manual / auto)
 
 >Update your existing dashboard setup by navigating to project root folder and running `git pull` in the terminal.
 
-## ❗ If you run into issues and getting error message "Permission denied" or "unable to open file" [see issue #22](https://github.com/femto-code/Raspberry-Pi-Dashboard/issues/22) for help and instructions to solve. ❗ 
+## ❗ If you run into issues and getting error message "Permission denied" or "unable to open file" [see issue #1](https://github.com/AShuuu-Technoid/Pi-Dashboard/issues/1) for help and instructions to solve. ❗
 
 ## Screenshots
 
@@ -84,7 +83,7 @@ _(if you are using another distro than Raspbian/Raspberry Pi OS the username of 
 >If you do not use Raspbian (or any other RasPi distro) like Ubuntu, you do have to install `libraspberrypi-bin` by running `sudo apt install libraspberrypi-bin`.
 
 - background: The `vcgencmd` command (specifically dedicated to RPi firmware) is a system command that requires certain hardware rights. Therefore one has to grant this particular right (to read hardware info) to e.g. `www-data` (under which web server is running). This is achived by adding this user to a system group called video, which the standard user pi is part of by default.
-- in case of problems: please comment on [#12](https://github.com/femto-code/Raspberry-Pi-Dashboard/issues/12) (or [new issue](https://github.com/femto-code/Raspberry-Pi-Dashboard/issues/new))
+- in case of problems: please comment on [#1](https://github.com/AShuuu-Technoid/Pi-Dashboard/issues/1) (or [new issue](https://github.com/AShuuu-Technoid/Pi-Dashboard/issues/new))
 
 #### Enable shutdown / reboot (optional)
 
@@ -100,7 +99,7 @@ In order to use the remote power functionality you have to give the user `www-da
 >You should change the default password (which is **root**) and a choose a more secure one by following the following steps.
 
 >Please be aware that there is a more user-friendly way by using the Dashboards options modal. The manual way of changing the password might be helpful
->- in case of wrong permissions (`www-data` cannot change settings for you - [see issue #22](https://github.com/femto-code/Raspberry-Pi-Dashboard/issues/22) for help and instructions to solve)
+>- in case of wrong permissions (`www-data` cannot change settings for you - [see issue #1](https://github.com/AShuuu-Technoid/Pi-Dashboard/issues/1) for help and instructions to solve)
 >- if password is unknown (and access to Dashboard therefore impossible)
 
 1. Go to [https://www.md5-generator.de/](https://www.md5-generator.de/) and generate the MD5 encyrpted passphrase.
