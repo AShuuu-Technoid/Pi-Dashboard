@@ -4,8 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-Open for your feature [requests](https://github.com/femto-code/Rasberry-Pi-Dashboard/pulls) or [issues](https://github.com/femto-code/Rasberry-Pi-Dashboard/issues)!
-[https://github.com/femto-code/Rasberry-Pi-Dashboard](https://github.com/femto-code/Rasberry-Pi-Dashboard)
+Open for your feature [requests](https://github.com/AShuuu-Technoid/Pi-Dashboard/pulls) or [issues](https://github.com/AShuuu-Technoid/Pi-Dashboard/issues)!
+[https://github.com/AShuuu-Technoid/Pi-Dashboard](https://github.com/AShuuu-Technoid/Pi-Dashboard)
 
 ## [1.1.0] - 2021-10-09
 

@@ -67,7 +67,7 @@ _(if you are using another distro than Raspbian/Raspberry Pi OS the username of 
 ### Setup project
 
 - navigate to your web folder (`cd /var/www/html`)
-- clone this Github repository: `git clone https://github.com/femto-code/Rasberry-Pi-Dashboard.git <your_subfolder_name>`
+- clone this Github repository: `https://github.com/AShuuu-Technoid/Pi-Dashboard.git <your_subfolder_name>`
 - Run
   - `sudo chown -R <yourlogin>:www-data /var/www/html/<your_subfolder_name>` and<br>(replace `<yourlogin>` with your username)
   - `sudo chmod -R 775 /var/www/html/<your_subfolder_name>`
