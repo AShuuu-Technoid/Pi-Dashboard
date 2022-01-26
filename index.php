@@ -509,7 +509,7 @@ if($auth){
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
               <div class="card-body">
               <h3><font class='text-success'>&#10003;</font> Version 1.1.0</h3>
-              <ul><li>live page title with hostname + status of monitored RPi</li><li>new project logo and improved readme.md design (thanks @Roo7K1d)</li><li><a href='https://github.com/AShuuu-Technoid/Pi-Dashboard/releases'>Stay updated here</a></li><li><i><a href="CHANGELOG.md">All changes</a></i></li></ul>
+              <ul><li>live page title with hostname + status of monitored RPi</li><li>new project logo and improved readme.md design</li><li><a href='https://github.com/AShuuu-Technoid/Pi-Dashboard/releases'>Stay updated here</a></li><li><i><a href="CHANGELOG.md">All changes</a></i></li></ul>
               <small>most important changes since RPi Dashboard v1.0.1 (Sep 2021)</small>
               </div>
             </div>
